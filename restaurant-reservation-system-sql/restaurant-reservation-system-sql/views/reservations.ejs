@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head><title>All Reservations</title></head>
+<body>
+  <h1>Reservations</h1>
+  <ul>
+    <% reservations.forEach(r => { %>
+      <li><%= r.name %> - <%= r.reservation_time %></li>
+    <% }); %>
+  </ul>
+</body>
+</html>
